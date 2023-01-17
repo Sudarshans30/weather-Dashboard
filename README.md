@@ -4,8 +4,6 @@ This project uses an openweather API to display weather data to the user based o
 
 
 Installation-  
-
-
 All functionality of this project is contained within the deployed webpage itself. Users can navigate to the following address to experience the project: 
 https://sudarshans30.github.io/weather-Dashboard/
 
@@ -17,3 +15,4 @@ Screenshot-
 
 
 
+![Uploading Screenshot 2023-01-17 at 11.28.58 pm (2).png…]()

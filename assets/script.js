@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 
     function getWeatherData(city){
-        fetch(`http://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=8ca46e9bee5fb8b777ad2e42aa6edd75`)
+        fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=8ca46e9bee5fb8b777ad2e42aa6edd75`)
         .then((response) => response.json())
         .then((data) => {
             temperature.textContent = `Temperature:${data.list[0].main.temperature}°F`;
